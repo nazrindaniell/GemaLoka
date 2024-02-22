@@ -1,0 +1,108 @@
+:root {
+  --main-color: #000;
+  --white: #fff;
+  --secondary-color: #e8ff02;
+  --main-font: "Mont";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* upcoming event section */
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--main-color);
+  padding: 50px;
+  overflow: hidden;
+}
+
+.grid-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 50px 0;
+}
+
+.grid-title h1 {
+  font-size: 36px;
+  font-family: var(--main-font);
+  font-weight: 900;
+  color: var(--white);
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  margin: 0 8%;
+  gap: 30px;
+  max-width: 100%;
+}
+
+.grid-item {
+  background-color: var(--secondary-color);
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.grid-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+}
+
+.grid-image img {
+  max-width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+}
+
+.grid-desc {
+  width: 100%;
+  padding: 20px;
+}
+
+.grid-desc h3,
+p {
+  font-family: var(--main-font);
+}
+
+.grid-desc h3 {
+  font-size: 24px;
+  padding-bottom: 20px;
+  font-weight: 900;
+}
+
+.grid-desc p {
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+
+.grid-button {
+  display: grid;
+  place-items: center;
+  padding: 0.65rem 1.75rem;
+  margin: 50px 0 0 0;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.grid-button a {
+  text-decoration: none;
+  font-family: var(--main-font);
+  color: var(--secondary-color);
+}

@@ -1,0 +1,94 @@
+:root {
+  --main-color: #000;
+  --white: #fff;
+  --secondary-color: #e8ff02;
+  --main-font: "Mont";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+  color: var(--white);
+  font-family: var(--main-font);
+  padding: 0 50px 0 50px;
+}
+
+nav a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+
+.navbar-links {
+  padding: 10px;
+}
+
+.navbar-links ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-links ul li {
+  padding: 20px;
+  list-style: none;
+}
+
+.navbar-links ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.container-btn{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-btn p{
+  color: var(--secondary-color);
+}
+
+.signup-btn {
+  padding: 0.4rem 1.75rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-btn a {
+  font-family: var(--main-font);
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.signup-btn p{
+  color: var(--secondary-color);
+}
+
+.logout{
+  padding-left: 20px;
+  
+}
+
+.logout i{
+  color: var(--secondary-color);
+  font-size: 22px;
+}
+
+.view-cart{
+  padding-right: 20px;
+}
+
+.view-cart i{
+  color: var(--secondary-color);
+  font-size: 26px;
+}

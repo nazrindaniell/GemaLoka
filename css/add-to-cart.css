@@ -1,0 +1,230 @@
+:root {
+  --main-color: #000;
+  --white: #fff;
+  --secondary-color: #e8ff02;
+  --main-font: "Mont";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: var(--white);
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 70% 30%);
+  font-family: var(--main-font);
+
+}
+
+.left-container{
+  color: var(--main-color);
+  padding: 50px 80px 0 130px;
+  height: 100vh;
+  border-right: 1px solid var(--main-color);
+}
+
+.left-title{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-left: 2.5%;
+}
+
+.left-title h2{
+  font-size: 28px;
+}
+
+
+.left-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  max-height: 100%;
+  overflow: scroll;
+}
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.item-wrapper{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  place-items: center;
+}
+
+.item-wrapper img{
+  width: 70%;
+}
+
+.form-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.item button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+/* Style for the quantity input and buttons */
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity input[type="number"] {
+    width: 50px;
+    padding: 6px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+}
+
+/* button 3 for update quantities*/
+#bottone3 {
+  padding: 13px 33px;
+  background-color: var(--main-color);
+  border-radius: 5px;
+  border: none;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.4s;
+  color: var(--white);
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  margin-left: 3%;
+}
+
+#bottone3:hover {
+  box-shadow: 7px 5px 56px -14px var(--main-color);
+}
+
+#bottone3:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px var(--main-color);
+}
+
+
+.right-container{
+  padding: 50px;
+  background-color: var(--white);
+  height: calc(100vh - 82px);
+}
+
+.right-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 8%;
+  width: 80%;
+  height: 100%;
+  text-align: left;
+  gap: 25%;
+}
+
+.right-wrapper h2 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.information h4{
+  font-size: 18px;
+}
+
+.information p{
+  font-size: 16px;
+}
+
+/* calc section */
+
+.calc{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cart-total, .discount, .final-total{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.final-total{
+  padding-top: 20px;
+  border-top: 1px solid var(--main-color);
+}
+
+.final-total .cart-desc p{
+  font-weight: 800;
+}
+
+/* checkout btn */
+
+a{
+  width: 100%;
+  text-decoration: none;
+}
+
+#bottone1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 13px 33px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#bottone1:hover {
+  box-shadow: 7px 5px 56px -14px #C3D900;
+}
+
+#bottone1:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #C3D900;
+}

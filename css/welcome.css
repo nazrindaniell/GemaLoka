@@ -1,0 +1,12 @@
+:root {
+  --main-color: #000;
+  --white: #fff;
+  --secondary-color: #e8ff02;
+  --main-font: "Mont";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

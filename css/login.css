@@ -1,0 +1,137 @@
+:root {
+  --main-color: #000;
+  --white: #fff;
+  --secondary-color: #e8ff02;
+  --main-font: "Mont";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: calc(100vh - 82px);
+  font-family: var(--main-font);
+}
+
+.right-container .wrapper form .form-group span{
+  display: flex;
+  justify-content: flex-start;
+  color: red;
+  font-size: 14px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 60% 40%);
+}
+
+.left-container {
+  background: var(--main-color);
+  padding: 50px;
+  color: var(--white);
+  height: calc(100vh - 82px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+}
+
+.left-container h1 {
+  font-size: 48px;
+  line-height: 60px;
+  padding-bottom: 20px;
+}
+
+.left-container p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.left-container span {
+  color: var(--secondary-color);
+}
+
+.right-container {
+  background-color: var(--white);
+  padding: 50px;
+  height: calc(100vh - 82px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  margin: 0 8%;
+  width: 60%;
+  text-align: center;
+}
+
+.wrapper h2 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  height: 45px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+  margin-bottom: 15px;
+}
+
+.form-control:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.form-control:active {
+  transform: scale(0.95);
+}
+
+.form-control:focus {
+  border: 2px solid grey;
+}
+
+.form-group p{
+  font-size: 14px;
+}
+
+
+/*submit button */
+.submit-btn {
+  width: 100%;
+  height: 45px;
+  padding: 12px;
+  font-weight: 700;
+  font-family: var(--main-font);
+  border-radius: 10px;
+  border: 1.5px solid var(--secondary-color);
+  background: var(--secondary-color);
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+  margin-bottom: 20px;
+}
+
+.submit-btn:hover {
+  border: 2px solid var(--secondary-color);
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.submit-btn:active {
+  transform: scale(0.95);
+}
+
+.fs:focus:focus {
+  border: 2px solid var(--secondary-color);
+}
