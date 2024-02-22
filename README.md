@@ -75,7 +75,6 @@ Open XAMPP and START the following:
 2. Fill in all the requirements and click the `Add Ticket` button.
 > [!NOTE]
 > Ensure the ticket image that you want to insert is square sized to have a consistent layout in the browser.
-<br>
 
 ### Edit/Delete a Ticket
 1. Navigate to `localhost/GemaLoka/php/admin_update.php`
