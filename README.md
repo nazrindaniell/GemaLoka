@@ -1,28 +1,85 @@
-# GemaLoka
-GemaLoka is a concert ticket selling platform inspired by AtasAngin, a Malaysian local music concert organization that is widely regarded as a major contributor to Malaysia's music industry.
+<div align="center">
+  <img alt="GemaLoka Logo" src="https://github.com/nazrindaniell/GemaLoka/assets/79645841/d752c8e8-f47e-4b5b-8af5-2059816c6668">
+  <h3>An e-commerce website that sells local concert ticket</h3>
+  <p>GemaLoka is a concert ticket selling platform inspired by AtasAngin, a Malaysian local music concert organization that is widely regarded as a major contributor to Malaysia's music industry</p>
+  <br>
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/nazrindaniell/GemaLoka">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/nazrindaniell/GemaLoka">
+  <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/nazrindaniell">
+  <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/nazrindaniell/GemaLoka">
+  <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/zinniel_">  
+</div>
+<br>
+<br>
 
-## Project Description
+## :scroll: Project Description
 This project aims to improve the current UI/UX to make it more user-friendly and entertaining, allowing users to have a better experience when exploring the website by focusing on the Cascade Styling Sheet (CSS), which fully utilizes flexbox and grid layout.
+<br>
+<br>
 
-## Technology Applied 
+### Here are some of the things that I implemented throughout the creation of this project.
+
+:wrench: Utilizing `flexbox and grid` layout to the fullest
+
+:file_folder: Making `variable in the CSS` to make things much more organized
+
+:watch: Designing a `prototype in Figma` first before entering into the coding process will save a lot of time.
+
+:mag: `Properly structure the HTML` layout
+<br>
+<br>
+
+
+## 🛠️ Built With:
 <ul>
   <li><img alt="Static Badge" src="https://img.shields.io/badge/HTML5-%23000?style=for-the-badge&logo=HTML5&logoColor=%23E34F26&labelColor=%23fff&color=%23E34F26"></li>
   <li><img alt="Static Badge" src="https://img.shields.io/badge/CSS-%23000?style=for-the-badge&logo=CSS3&logoColor=%231572B6&labelColor=%23fff&color=%231572B6"></li>
   <li><img alt="Static Badge" src="https://img.shields.io/badge/PHP-%23000?style=for-the-badge&logo=PHP&logoColor=%23777BB4&labelColor=%23fff&color=%23777BB4"></li>
+  <li><img alt="Static Badge" src="https://img.shields.io/badge/MySQL-white?style=for-the-badge&logo=MySQL&logoColor=%234479A1&labelColor=%23fff&color=%234479A1">
 </ul>
+<br>
 
-## Screenshots
-<div class="grid">
-  <img alt="Sign in" src="https://github.com/nazrindaniell/GemaLoka/assets/79645841/b20282b2-d7a5-4066-b45b-2844304df995">
-  <img alt="Subscription" src="https://github.com/nazrindaniell/GemaLoka/assets/79645841/e335e095-87bd-4a24-927e-37cb0a401dfe">
-  <img alt="cart" src="https://github.com/nazrindaniell/GemaLoka/assets/79645841/62c61231-ed26-4eb9-acc7-4e68fc39c93b">
-</div>
+## :camera: Screenshots
+  <img alt="Sign in" src="https://github.com/nazrindaniell/GemaLoka/assets/79645841/402106a9-9561-4027-8c89-8b51ab9e6de8">
+  <img alt="Subscription" src="https://github.com/nazrindaniell/GemaLoka/assets/79645841/1e769e6f-8a03-419c-93e8-44b0a18d5cf7">
+  <img alt="cart" src="https://github.com/nazrindaniell/GemaLoka/assets/79645841/fdd564c7-2327-47d9-a4a2-9f311e4370fb">
 
-## Installation
+## :cd: Installation
+```
+git clone https://github.com/nazrindaniell/GemaLoka
+```
+
+### Setup
 <div>
-  <ol>
-    <li>Install </li>
-  </ol>
+  <ul>
+    <li><a href="https://www.apachefriends.org/download.html">Install XAMPP</a></li>
+    <li><a href="https://freemyfonts.com/mont-font-family">Install Mont Font Family</a></li>
+  </ul>
 </div>
+
+### Run the localhost server
+Open XAMPP and START the following: 
+- `Apache`
+- `MySQL`
+
+### Create database
+1) Open browser and type `localhost/phpmyadmin`
+2) Create a new database and name it whatever you like, for example, GemaLoka, and then click `CREATE` to create a database.
+3) `Navigate to SQL` and paste these queries:
+[gemaloka tables.txt](https://github.com/nazrindaniell/GemaLoka/files/14371920/gemaloka.tables.txt)
+4) Click `GO` to create the table
+<br>
+
+
+## :sunflower: Contribute
+If you want to say thank you and/or support the active development of GemaLoka:
+1. Add a GitHub Star to the project.
+2. Support the project by donating a cup of coffee.
+<br>
+
+
+## :bust_in_silhouette: Author
+If you have any inquires, feel free to leave me a message at nazrindaniel8@gmail.com
+
 
 
