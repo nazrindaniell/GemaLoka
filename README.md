@@ -69,13 +69,12 @@ Open XAMPP and START the following:
 - `MySQL`
 
 ### Create database
-
-1. Open browser and type `localhost/phpmyadmin`
-2. Create a new database and name it whatever you like, for example, GemaLoka, and then click `CREATE` to create a database.
-3. `Navigate to SQL` and paste these queries:
-   [gemaloka tables.txt](https://github.com/nazrindaniell/GemaLoka/files/14371920/gemaloka.tables.txt)
-4. Click `GO` to create the table
-   <br>
+1) Open browser and type `localhost/phpmyadmin`
+2) Create a new database and name it whatever you like, for example, GemaLoka, and then click `CREATE` to create a database.
+3) `Navigate to SQL` and paste these queries:
+[gemaloka tables.txt](https://github.com/nazrindaniell/GemaLoka/files/14371920/gemaloka.tables.txt)
+4) Click `GO` to create the table
+<br>
 
 ## How to Use
 
