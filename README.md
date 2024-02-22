@@ -5,7 +5,7 @@
   <br>
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/nazrindaniell/GemaLoka">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/nazrindaniell/GemaLoka">
-  <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/nazrindaniell">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nazrindaniell/GemaLoka">
   <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/nazrindaniell/GemaLoka">
   <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/zinniel_">  
 </div>
