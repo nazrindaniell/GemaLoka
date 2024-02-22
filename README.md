@@ -73,8 +73,8 @@ Open XAMPP and START the following:
 
 ## :sunflower: Contribute
 If you want to say thank you and/or support the active development of GemaLoka:
-1. Add a GitHub Star to the project.
-2. Support the project by donating a cup of coffee.
+1. Add a [GitHub Star](https://github.com/nazrindaniell/GemaLoka) to the project.
+2. Support the project by donating a [cup of coffee](https://www.buymeacoffee.com/nazrindaniell).
 <br>
 
 
