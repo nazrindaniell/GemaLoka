@@ -63,9 +63,25 @@ Open XAMPP and START the following:
 
 ### Create database
 1) Open browser and type `localhost/phpmyadmin`
-2) Create a new database and name it whatever you like, for example, GemaLoka, and then click `CREATE` to create a database.
+2) Create a new database and named it `gemaloka`, and then click `CREATE` to create a database.
 3) `Navigate to SQL` and paste this [queries](https://github.com/nazrindaniell/GemaLoka/files/14371920/gemaloka.tables.txt) one by one.
 4) Click `GO` to create the table.
+
+>[!IMPORTANT]
+>When naming the database, make sure it is `gemaloka`, or if you want to use your preferred database name, you need to configure the `dbname` variable in `/php/dbconnect.php` file to your database name in `localhost/phpmyadmin`.
+```php
+<?php
+	$host = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "gemaloka";
+	$conn = mysqli_connect($host, $username, $password, $dbname);
+
+	if(!$conn){
+		die("Connection failed: " . mysqli_connect_error());
+	}
+?>
+```
 <br>
 
 ## :clipboard: How to Use
