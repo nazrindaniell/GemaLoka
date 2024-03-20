@@ -62,13 +62,13 @@ Open XAMPP and START the following:
 - `MySQL`
 
 ### Create database
-1) Open browser and type `localhost/phpmyadmin`
-2) Create a new database and named it `gemaloka`, and then click `CREATE` to create a database.
+1) Open the browser and type `localhost/phpmyadmin`
+2) Create a new database and name it `gemaloka`, and then click `CREATE` to create a database.
 3) `Navigate to SQL` and paste this [queries](https://github.com/nazrindaniell/GemaLoka/files/14371920/gemaloka.tables.txt) one by one.
 4) Click `GO` to create the table.
 
 >[!IMPORTANT]
->When naming the database, make sure it is `gemaloka`, or if you want to use your preferred database name, you need to configure the `dbname` variable in `/php/dbconnect.php` file to your database name in `localhost/phpmyadmin`.
+>When naming the database, make sure it is `gemaloka`, or if you want to use your preferred database name, you need to configure the `dbname` variable in the `/php/dbconnect.php` file to your database name in `localhost/phpmyadmin`.
 ```php
 <?php
 	$host = "localhost";
@@ -87,15 +87,15 @@ Open XAMPP and START the following:
 ## :clipboard: How to Use
 
 ### Adding a ticket
-1. On browser, navigate to `localhost/GemaLoka/php/admin.php`
+1. On the browser, navigate to `localhost/GemaLoka/php/admin.php`
 2. Fill in all the requirements and click the `Add Ticket` button.
 > [!NOTE]
-> Ensure the ticket image that you want to insert is square sized to have a consistent layout in the browser.
+> Ensure the ticket image that you want to insert is square-sized to have a consistent layout in the browser.
 
 ### Edit/Delete a Ticket
 1. Navigate to `localhost/GemaLoka/php/admin_update.php`
 2. Select a ticket that you want to edit or delete
-3. You can add the price of the ticket in this page
+3. You can add the price of the ticket on this page
 > [!IMPORTANT]
 > Keep in mind to insert a ticket image or else, you will not be able to update it.
 <br>
@@ -108,6 +108,6 @@ If you want to say thank you and/or support the active development of GemaLoka:
 <br>
 
 ## :bust_in_silhouette: Author
-If you have any inquires, feel free to leave me a message at nazrindaniel8@gmail.com
+If you have any inquiries, feel free to leave me a message at nazrindaniel8@gmail.com
 
 
